@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int i, j;
+    int i = 1, j = 1;
     int maior = 0, menor = 0;
     int soma = 0;
 
@@ -15,7 +15,7 @@ int main()
 
         if (i <= 0 || j <= 0)
         {
-            return 0;
+            break;
         }
 
         if (i < j)
